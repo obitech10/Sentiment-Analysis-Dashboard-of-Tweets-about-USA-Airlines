@@ -73,3 +73,5 @@ if st.sidebar.checkbox("View", True, key="3"):
     plt.xticks([])
     plt.yticks([])
     st.pyplot()
+
+st.set_option('deprecation.showPyplotGlobalUse', False)
